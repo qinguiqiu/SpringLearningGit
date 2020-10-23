@@ -1,11 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d8503cab-731d-48ba-adef-b181d30efb52" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qin/factory/BeanFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qin/factory/BeanFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qin/service/impl/AccountServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qin/service/impl/AccountServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qin/ui/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qin/ui/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SpringFactory-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/SpringFactory-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qin/service/impl/AccountServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qin/service/impl/AccountServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qin/ui/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qin/ui/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringJdbc/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringJdbc/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="$USER_HOME$/Desktop/JavaLearning/maven_repository" />
-        <option name="mavenHome" value="$USER_HOME$/Desktop/JavaLearning/apache-maven-3.6.3" />
-        <option name="userSettingsFile" value="$USER_HOME$/Desktop/JavaLearning/apache-maven-3.6.3/conf/settings.xml" />
+        <option name="localRepository" value="$PROJECT_DIR$/../../JavaLearning/maven_repository" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../JavaLearning/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="$PROJECT_DIR$/../../JavaLearning/apache-maven-3.6.3/conf/settings.xml" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -18,7 +64,112 @@
     <option name="delegateBuildToMaven" value="true" />
     <option name="vmOptions" value="-DarchetypeCatalog=internal" />
   </component>
+  <component name="ProjectId" id="1j8ULcz0jejAWkZDqPD5fFeqg9x" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.qin.ui.Client" />
+      <module name="SpringFactory" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qin.ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Client" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d8503cab-731d-48ba-adef-b181d30efb52" name="Default Changelist" comment="" />
+      <created>1603185157167</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603185157167</updated>
+      <workItem from="1603185158901" duration="7483000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="533" y="163" key="#com.intellij.ide.util.MemberChooser" timestamp="1603185671294">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="533" y="163" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1603185671294" />
+    <state width="1396" height="304" key="GridCell.Tab.0.bottom" timestamp="1603334121253">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1396" height="304" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1603334121253" />
+    <state width="1396" height="304" key="GridCell.Tab.0.center" timestamp="1603334121249">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1396" height="304" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1603334121249" />
+    <state width="1396" height="304" key="GridCell.Tab.0.left" timestamp="1603334121247">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1396" height="304" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1603334121247" />
+    <state width="1396" height="304" key="GridCell.Tab.0.right" timestamp="1603334121251">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1396" height="304" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1603334121251" />
+    <state width="1396" height="304" key="GridCell.Tab.1.bottom" timestamp="1603334121257">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1396" height="304" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1603334121257" />
+    <state width="1396" height="304" key="GridCell.Tab.1.center" timestamp="1603334121255">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1396" height="304" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1603334121255" />
+    <state width="1396" height="304" key="GridCell.Tab.1.left" timestamp="1603334121254">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1396" height="304" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1603334121254" />
+    <state width="1396" height="304" key="GridCell.Tab.1.right" timestamp="1603334121256">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1396" height="304" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1603334121256" />
   </component>
 </project>

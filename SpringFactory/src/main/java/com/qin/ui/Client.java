@@ -1,5 +1,6 @@
 package com.qin.ui;
 
+import com.qin.factory.BeanFactory;
 import com.qin.service.IAccountService;
 import com.qin.service.impl.AccountServiceImpl;
 
@@ -7,7 +8,12 @@ import com.qin.service.impl.AccountServiceImpl;
 public class Client {
 
     public static void main(String[] args){
-        IAccountService as = new AccountServiceImpl();
-        as.saveAccount();
+//        IAccountService as = new AccountServiceImpl();
+        for (int i = 0; i <= 4; i++) {
+            //此时为多例，并非单例
+            IAccountService as = (IAccountService) BeanFactory.getBean("accountService");
+            System.out.println(as);
+//            as.saveAccount();
+        }
     }
 }

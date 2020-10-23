@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="LeetcodeEditor">
+    <option name="projectConfig">
+      <map>
+        <entry key="$PROJECT_DIR$/../../JavaLearning/LeetCode/leetcode/editor/cn/[剑指 Offer 61]扑克牌中的顺子.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/../../JavaLearning/LeetCode/leetcode/editor/cn/[剑指 Offer 61]扑克牌中的顺子.java" />
+              <option name="questionId" value="100341" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../JavaLearning/LeetCode/leetcode/editor/cn/[面试题 17.26]稀疏相似度.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/../../JavaLearning/LeetCode/leetcode/editor/cn/[面试题 17.26]稀疏相似度.java" />
+              <option name="questionId" value="1000051" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
