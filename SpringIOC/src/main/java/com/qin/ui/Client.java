@@ -17,6 +17,11 @@ public class Client {
             ClassPathXmlApplicationContext 可以加载类路径下的配置文件，要求配置文件必须在类路径下，不在的化，加载不了(常用）
             FileSystemXmlApplicationContext  可以加载磁盘人意路径下的配置文件（必须有访问全限）
             AnnotationConfigApplicationContext  用于读写注解创建文件
+    核型容器的两个接口引发的问题：
+    ApplicationContext：
+        它在构建核心容器时，创建对象采用的策略是采用立即加载的方式。也就是说只要一读完配置文件马上就创建配置文件中配置的对象。
+    BeanFactory：
+
      */
     public static void main(String[] args){
         //1 获取核心容器对象
