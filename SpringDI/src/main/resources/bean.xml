@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+<!--    把对象的创建交给Spring来管理-->
+<!--    依赖注入：
+            dependency Injection
+        IOC的作用：
+            降低程序见的耦合
+        依赖关系的管理：
+            以后都交给了spring来维护
+        注入类型：
+            基本类型和String
+            其他bean类型
+            复杂类型/集合类型
+        注入方法：
+            构造函数提供
+            使用set方法
+            使用注解
+        -->
+
+<!--    构造函数的注入
+            使用标签：constructor-org
+            标签出现的位置， bean标签内部
+            标签的属性
+             type
+             index
+             name
+
+             value
+             ref
+            -->
+    <bean id="accountService" class="com.qin.service.impl.AccountServiceImpl">
+        <constructor-arg name="name" value="test"></constructor-arg>
+        <constructor-arg name="age" value="18"></constructor-arg>
+        <constructor-arg name="birthday" ref="now"></constructor-arg>
+    </bean>
+
+<!--    配置一个日期对象-->
+    <bean id="now" class="java.util.Date"></bean>
+
+
+
+<!--    set方法类注入
+            涉及的标签： property
+            出现的位置： bean标签的内部
+            标签的属性：
+                name
+                value
+                ref-->
+    <bean id="accountService2" class="com.qin.service.impl.AccountServiceImpl2">
+        <property name="name" value="test2"></property>
+        <property name="age" value="19"></property>
+        <property name="birthday" ref="now"></property>
+    </bean>
+
+<!--   复杂类型注入-->
+    <bean id="accountService3" class="com.qin.service.impl.AccountServiceImpl3">
+        <property name="myStr">
+            <array>
+                <value>AAA</value>
+                <value>BBB</value>
+                <value>CCC</value>
+            </array>
+        </property>
+        <property name="myList">
+            <list>
+                <value>AAA</value>
+                <value>BBB</value>
+                <value>CCC</value>
+            </list>
+        </property>
+        <property name="mySet">
+            <set>
+                <value>AAA</value>
+                <value>BBB</value>
+                <value>CCC</value>
+            </set>
+        </property>
+        <property name="myMap">
+            <map>
+                <entry key="testA" value="AAAA"></entry>
+                <entry key="testB" value="BBBB"></entry>
+                <entry key="testC" value="CCCC"></entry>
+            </map>
+        </property>
+        <property name="myProps">
+            <props>
+                <prop key="testA">aaa</prop>
+                <prop key="testB">bbb</prop>
+                <prop key="testC">ccc</prop>
+            </props>
+        </property>
+    </bean>
+</beans>
