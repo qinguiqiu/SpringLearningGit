@@ -34,9 +34,9 @@ public class Client {
         //2 根据id获取Bean对象
         IAccountService as = (IAccountService)ac.getBean("accountServiceImpl");
 
-        IAccountDao ado = ac.getBean("accountDaoImpl",IAccountDao.class);
-        System.out.println(ado);
-        System.out.println(as);
-//        as.saveAccount();
+//        IAccountDao ado = ac.getBean("accountDaoImpl",IAccountDao.class);
+//        System.out.println(ado);
+//        System.out.println(as);
+        as.saveAccount();
     }
 }
